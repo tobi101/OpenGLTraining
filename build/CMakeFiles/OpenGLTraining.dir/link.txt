@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\OpenGLTraining.dir/objects.a
+C:\Users\saibo\Downloads\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1\bin\ar.exe qc CMakeFiles\OpenGLTraining.dir/objects.a @CMakeFiles\OpenGLTraining.dir\objects1.rsp
+C:\Users\saibo\Downloads\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\OpenGLTraining.dir/objects.a -Wl,--no-whole-archive -o OpenGLTraining.exe -Wl,--out-implib,libOpenGLTraining.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGLTraining.dir\linkLibs.rsp

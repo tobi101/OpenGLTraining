@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/saibo/OpenGLTraining/build",
+  "command": "C:\\Users\\saibo\\Downloads\\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1\\bin\\g++.exe   -g -o CMakeFiles\\OpenGLTraining.dir\\main.cpp.obj -c C:\\Users\\saibo\\OpenGLTraining\\main.cpp",
+  "file": "C:/Users/saibo/OpenGLTraining/main.cpp",
+  "output": "CMakeFiles/OpenGLTraining.dir/main.cpp.obj"
+}
+]
