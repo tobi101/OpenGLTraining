@@ -128,6 +128,19 @@ OpenGLTraining/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLTraining.dir\build.make CMakeFiles/OpenGLTraining.dir/build
 .PHONY : OpenGLTraining/fast
 
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f vendor\glad\CMakeFiles\glad.dir\build.make vendor/glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +174,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OpenGLTraining
+	@echo ... glad
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

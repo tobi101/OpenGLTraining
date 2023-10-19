@@ -69,6 +69,7 @@ include CMakeFiles/OpenGLTraining.dir/progress.make
 include CMakeFiles/OpenGLTraining.dir/flags.make
 
 CMakeFiles/OpenGLTraining.dir/main.cpp.obj: CMakeFiles/OpenGLTraining.dir/flags.make
+CMakeFiles/OpenGLTraining.dir/main.cpp.obj: CMakeFiles/OpenGLTraining.dir/includes_CXX.rsp
 CMakeFiles/OpenGLTraining.dir/main.cpp.obj: C:/Users/saibo/OpenGLTraining/main.cpp
 CMakeFiles/OpenGLTraining.dir/main.cpp.obj: CMakeFiles/OpenGLTraining.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\saibo\OpenGLTraining\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLTraining.dir/main.cpp.obj"
@@ -91,6 +92,8 @@ OpenGLTraining_EXTERNAL_OBJECTS =
 
 OpenGLTraining.exe: CMakeFiles/OpenGLTraining.dir/main.cpp.obj
 OpenGLTraining.exe: CMakeFiles/OpenGLTraining.dir/build.make
+OpenGLTraining.exe: C:/Users/saibo/OpenGLTraining/vendor/GLFW/lib/libglfw3dll.a
+OpenGLTraining.exe: vendor/glad/libglad.a
 OpenGLTraining.exe: CMakeFiles/OpenGLTraining.dir/linkLibs.rsp
 OpenGLTraining.exe: CMakeFiles/OpenGLTraining.dir/objects1.rsp
 OpenGLTraining.exe: CMakeFiles/OpenGLTraining.dir/link.txt

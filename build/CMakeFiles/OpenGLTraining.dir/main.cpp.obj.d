@@ -1,5 +1,19 @@
 CMakeFiles/OpenGLTraining.dir/main.cpp.obj: \
  C:\Users\saibo\OpenGLTraining\main.cpp \
+ C:/Users/saibo/OpenGLTraining/vendor/glad/include/glad/glad.h \
+ C:/Users/saibo/OpenGLTraining/vendor/glad/include/KHR/khrplatform.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/stdint.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+ C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/stddef.h \
+ C:/Users/saibo/OpenGLTraining/vendor/GLFW/include/GLFW/glfw3.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/iostream \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/requires_hosted.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -14,12 +28,6 @@ CMakeFiles/OpenGLTraining.dir/main.cpp.obj: \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/postypes.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/cwchar \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/wchar.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -31,9 +39,6 @@ CMakeFiles/OpenGLTraining.dir/main.cpp.obj: \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/exception_ptr.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/exception_defines.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/cxxabi_init_exception.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/typeinfo \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/bits/hash_bytes.h \
  C:/Users/saibo/Downloads/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1/include/c++/13.2.0/new \

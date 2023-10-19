@@ -20,6 +20,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake"
+  "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -34,6 +37,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeSystem.cmake"
+  "C:/Users/saibo/OpenGLTraining/vendor/GLFW/lib/cmake/glfw3/glfw3Config.cmake"
+  "C:/Users/saibo/OpenGLTraining/vendor/GLFW/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
+  "C:/Users/saibo/OpenGLTraining/vendor/GLFW/lib/cmake/glfw3/glfw3Targets-noconfig.cmake"
+  "C:/Users/saibo/OpenGLTraining/vendor/GLFW/lib/cmake/glfw3/glfw3Targets.cmake"
+  "C:/Users/saibo/OpenGLTraining/vendor/glad/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,9 +53,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGLTraining.dir/DependInfo.cmake"
+  "vendor/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )

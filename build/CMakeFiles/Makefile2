@@ -63,21 +63,38 @@ CMAKE_BINARY_DIR = C:\Users\saibo\OpenGLTraining\build
 
 # The main recursive "all" target.
 all: CMakeFiles/OpenGLTraining.dir/all
+all: vendor/glad/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: vendor/glad/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/OpenGLTraining.dir/clean
+clean: vendor/glad/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory vendor/glad
+
+# Recursive "all" directory target.
+vendor/glad/all: vendor/glad/CMakeFiles/glad.dir/all
+.PHONY : vendor/glad/all
+
+# Recursive "preinstall" directory target.
+vendor/glad/preinstall:
+.PHONY : vendor/glad/preinstall
+
+# Recursive "clean" directory target.
+vendor/glad/clean: vendor/glad/CMakeFiles/glad.dir/clean
+.PHONY : vendor/glad/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGLTraining.dir
 
 # All Build rule for target.
-CMakeFiles/OpenGLTraining.dir/all:
+CMakeFiles/OpenGLTraining.dir/all: vendor/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLTraining.dir\build.make CMakeFiles/OpenGLTraining.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLTraining.dir\build.make CMakeFiles/OpenGLTraining.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\saibo\OpenGLTraining\build\CMakeFiles --progress-num=1,2 "Built target OpenGLTraining"
@@ -85,7 +102,7 @@ CMakeFiles/OpenGLTraining.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenGLTraining.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saibo\OpenGLTraining\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saibo\OpenGLTraining\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OpenGLTraining.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saibo\OpenGLTraining\build\CMakeFiles 0
 .PHONY : CMakeFiles/OpenGLTraining.dir/rule
@@ -98,6 +115,32 @@ OpenGLTraining: CMakeFiles/OpenGLTraining.dir/rule
 CMakeFiles/OpenGLTraining.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLTraining.dir\build.make CMakeFiles/OpenGLTraining.dir/clean
 .PHONY : CMakeFiles/OpenGLTraining.dir/clean
+
+#=============================================================================
+# Target rules for target vendor/glad/CMakeFiles/glad.dir
+
+# All Build rule for target.
+vendor/glad/CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f vendor\glad\CMakeFiles\glad.dir\build.make vendor/glad/CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f vendor\glad\CMakeFiles\glad.dir\build.make vendor/glad/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\saibo\OpenGLTraining\build\CMakeFiles --progress-num=3,4 "Built target glad"
+.PHONY : vendor/glad/CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+vendor/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saibo\OpenGLTraining\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glad/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saibo\OpenGLTraining\build\CMakeFiles 0
+.PHONY : vendor/glad/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: vendor/glad/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# clean rule for target.
+vendor/glad/CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f vendor\glad\CMakeFiles\glad.dir\build.make vendor/glad/CMakeFiles/glad.dir/clean
+.PHONY : vendor/glad/CMakeFiles/glad.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
