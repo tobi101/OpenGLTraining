@@ -1,6 +1,0 @@
-C:/Users/saibo/OpenGLTraining/build/CMakeFiles/OpenGLTraining.dir
-C:/Users/saibo/OpenGLTraining/build/CMakeFiles/edit_cache.dir
-C:/Users/saibo/OpenGLTraining/build/CMakeFiles/rebuild_cache.dir
-C:/Users/saibo/OpenGLTraining/build/vendor/glad/CMakeFiles/glad.dir
-C:/Users/saibo/OpenGLTraining/build/vendor/glad/CMakeFiles/edit_cache.dir
-C:/Users/saibo/OpenGLTraining/build/vendor/glad/CMakeFiles/rebuild_cache.dir

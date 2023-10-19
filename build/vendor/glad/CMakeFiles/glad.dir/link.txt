@@ -1,2 +1,0 @@
-C:\Users\saibo\Downloads\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1\bin\ar.exe qc libglad.a CMakeFiles/glad.dir/src/glad.c.obj
-C:\Users\saibo\Downloads\winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64msvcrt-11.0.1-r1\bin\ranlib.exe libglad.a
